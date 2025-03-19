@@ -1,6 +1,6 @@
 import { getOptimizelyClient } from '@/server/utils/optimizely'
 
-export default defineNuxtPlugin(async (nuxtApp) => {
+export default defineNuxtPlugin(async () => {
   const optimizelyClient = await getOptimizelyClient()
 
   return {

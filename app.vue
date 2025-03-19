@@ -1,7 +1,6 @@
 <template>
   <div>
-    aaa:
-    {{ variation }}
+    aaa: {{ variation }}
   </div>
 </template>
 

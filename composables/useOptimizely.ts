@@ -13,8 +13,6 @@ export default function ({
   const { $optimizely } = useNuxtApp();
   const userId = useUserId();
 
-
-  
   // If the plugin is not enabled, return null values
   if (!$optimizely) {
     return {

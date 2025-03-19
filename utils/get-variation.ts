@@ -22,14 +22,5 @@ export function getVariation(
     return optimizely.getForcedVariation(experimentKey, userId);
   }
 
-  try {
-    console.log(userAttributes)
-    console.log(userId)
-    console.log(experimentKey)
-    optimizely.getVariation(experimentKey, userId, userAttributes)
-  } catch (error) {
-    console.log('Error getting variation', error)
-  }
-
   return optimizely.getVariation(experimentKey, userId, userAttributes) ?? null;
 }

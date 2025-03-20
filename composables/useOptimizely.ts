@@ -16,7 +16,7 @@ export default function ({
   // If the plugin is not enabled, return null values
   if (!$optimizely) {
     return {
-      variation: null,
+      variation: 'control',
       variables: null,
     };
   }

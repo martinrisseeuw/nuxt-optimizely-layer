@@ -6,20 +6,7 @@ describe("getVariation", () => {
   const experimentKey = "test_experiment";
   const userId = "test_user";
   const userAttributes = {
-    channel: "",
-    title: "AD",
-    otag: "",
-    mid: "CAM-wxvanx|TCH-5g6nol|TCO-lx2qmx|CTY-5g6nol|CCO-5g6nol|PRG-xvd3rx",
-    flowStep: "",
-    campaign: "",
-    returning: "",
-    productType: "",
-    device: "desktop",
-    magazines: false,
-    host: "abonnement-dev.ad.nl",
-    url: "https://abonnement-dev.ad.nl/",
-    environment: "shops",
-    country: "",
+    logged_in: true,
   };
 
   it("should set and return forced variation when query contains forced variation parameter", () => {
